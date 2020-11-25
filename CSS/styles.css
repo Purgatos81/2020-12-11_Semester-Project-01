@@ -1,0 +1,32 @@
+body {
+    background-color: #EBEBEB;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+a:link {
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.top-menu {
+    display: none;
+}
+
+#hamburger-checkbox {
+    display: none;
+}
+
+#hamburger-checkbox:checked ~ .top-menu {
+    display: block;
+}
