@@ -81,7 +81,7 @@ img {
 
 .media-icons {
     border-radius: 50%;
-    width: 100px;
+    max-width: 100px;
     border: solid black 1px;
 }
 
