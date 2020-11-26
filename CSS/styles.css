@@ -48,3 +48,31 @@ li {
     grid-column: 1/2;
 }
 
+.navelement1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border:  solid black 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navelement2 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border:  solid black 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-fig {
+    background-color: white;
+}
