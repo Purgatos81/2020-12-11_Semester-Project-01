@@ -73,6 +73,24 @@ img {
     height: auto;
 }
 
+/*Main Page Style*/
+
 .main-fig {
     background-color: white;
+}
+
+.media-icons {
+    border-radius: 50%;
+    width: 100px;
+    border: solid black 1px;
+}
+
+.explore-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text {
+    padding-left: 20px;
 }
