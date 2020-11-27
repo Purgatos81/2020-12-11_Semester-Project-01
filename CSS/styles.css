@@ -48,6 +48,7 @@ li {
     display: grid;
     grid-row: 2/3;
     grid-column: 1/4;
+    padding-left: 0px;
 }
 
 .hamburger-label {
@@ -65,7 +66,7 @@ li {
 .logo {
     grid-column: 1/2;
     align-self: center;
-    padding-left: 10px;
+    padding-left: 6px;
     padding-bottom: 10px;
     padding-top: 5px;
 }
