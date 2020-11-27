@@ -104,10 +104,19 @@ img {
     margin: 0px;
 }
 
+.main-info-h {
+    text-align: center;
+}
+
+.main-info-p {
+    text-align: center;
+}
+
 .visit-button {
     background-color: #F2A20C;
     border: solid black 1px;
     border-radius: 50px;
+    float: unset;
 }
 
 .media-icons {
