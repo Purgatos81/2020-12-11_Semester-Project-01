@@ -6,6 +6,22 @@ body {
     box-sizing: border-box;
   }
 
+h1 {
+
+}
+
+h2 {
+    font-family: arial, verdana, sans-serif;
+}
+
+h3 {
+    font-family: verdana, sans-serif;
+}
+
+p {
+    font-family: verdana, sans-serif;
+}
+
 a:link {
     text-decoration: none;
     font-weight: bold;
@@ -97,4 +113,9 @@ img {
 
 .news-div {
     background-color: white;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
 }
