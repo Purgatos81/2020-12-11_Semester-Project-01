@@ -102,6 +102,7 @@ img {
 .main-fig {
     background-color: white;
     margin: 0px;
+    border: solid black 1px;
 }
 
 .main-info-h {
@@ -112,12 +113,6 @@ img {
     text-align: center;
 }
 
-.visit-button {
-    background-color: #F2A20C;
-    border: solid black 1px;
-    border-radius: 50px;
-}
-
 .media-icons {
     border-radius: 50%;
     max-width: 100px;
@@ -125,22 +120,39 @@ img {
 }
 
 .explore-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto auto;
 }
 
 .icon-text {
     padding-left: 20px;
+    display: flex;
+    align-items: center;
+
 }
 
 .news-div {
     background-color: white;
+    border: solid black 1px;
+}
+
+.news-div {
+    text-align: center;
+    padding-top: 1px;
+}
+
+.Visit-header {
+    text-align: center;
+    margin-top: 50px;
 }
 
 .footer-nav {
     display: flex;
     justify-content: space-between;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .footer-link:hover {
