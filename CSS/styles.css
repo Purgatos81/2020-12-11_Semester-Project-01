@@ -322,6 +322,7 @@ img {
     .contact-field {
         display: flex;
         flex-direction: column;
+        border: none;
     }
 
 }
