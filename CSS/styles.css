@@ -303,4 +303,25 @@ img {
         font-family: verdana, sans-serif;
     }
     
+    /*About styling*/
+
+    .about-top {
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    .about-main {
+        text-align: center;
+        padding: 0px 30px;
+    }
+
+    .contact-legend {
+        text-align: center;
+    }
+
+    .contact-field {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
