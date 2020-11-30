@@ -323,6 +323,11 @@ img {
         display: flex;
         flex-direction: column;
         border: none;
+        font-weight: bold;
+    }
+
+    .form-input {
+        margin-bottom: 10px;
     }
 
 }
