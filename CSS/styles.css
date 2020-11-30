@@ -107,10 +107,18 @@ img {
 
 .main-info-h {
     text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .main-info-p {
     text-align: center;
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .media-icons {
@@ -158,4 +166,25 @@ img {
 .footer-link:hover {
     text-decoration: underline;
     color: black;
+}
+
+/*media queries here*/
+
+@media only screen and (min-width:991px) {
+    .hamburger-label {
+        display: none;
+    }
+
+    .top-menu {
+        display: flex;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:990px) {
+
+}
+
+@media only screen and (min-width:360px) and (max-width:599px) {
+    
 }
