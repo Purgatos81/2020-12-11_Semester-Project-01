@@ -114,6 +114,12 @@ img {
     color: black;
 }
 
+/*School styling here*/
+
+.school-text {
+    text-align: center;
+}
+
 /*media queries here*/
 
 @media only screen and (min-width:991px) {
