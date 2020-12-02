@@ -1,5 +1,5 @@
 body {
-    background-color: #EBEBEB;
+    background-color: white;
 }
 
 * {
@@ -46,7 +46,7 @@ img {
 /*Main Page Style*/
 
 .main-fig {
-    background-color: white;
+    background-color: #EBEBEB;
     margin: 0px;
     border: solid black 1px;
 }
@@ -68,7 +68,7 @@ img {
 }
 
 .news-div {
-    background-color: white;
+    background-color: #EBEBEB;
     border: solid black 1px;
 }
 
@@ -192,7 +192,7 @@ img {
     
     }    
 
-    
+
 
 }
 
@@ -237,7 +237,7 @@ img {
     }
     
     .navelement1 {
-        background-color: white;
+        background-color: #EBEBEB;
         display: flex;
         justify-content: center;
         border:  solid black 3px;
@@ -246,7 +246,7 @@ img {
     }
     
     .navelement2 {
-        background-color: white;
+        background-color: #EBEBEB;
         display: flex;
         justify-content: center;
         border:  solid black 3px;
@@ -318,7 +318,7 @@ img {
     }
     
     .navelement1 {
-        background-color: white;
+        background-color: #EBEBEB;
         display: flex;
         justify-content: center;
         border:  solid black 3px;
@@ -327,7 +327,7 @@ img {
     }
     
     .navelement2 {
-        background-color: white;
+        background-color: #EBEBEB;
         display: flex;
         justify-content: center;
         border:  solid black 3px;
