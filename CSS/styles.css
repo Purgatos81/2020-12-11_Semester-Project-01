@@ -67,25 +67,6 @@ img {
     padding-right: 20px;
 }
 
-.media-icons {
-    border-radius: 50%;
-    max-width: 100px;
-    border: solid black 1px;
-}
-
-.explore-icons {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto auto;
-}
-
-.icon-text {
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
-
-}
-
 .news-div {
     background-color: white;
     border: solid black 1px;
@@ -126,8 +107,6 @@ img {
     .hamburger-label {
         display: none;
     }
-
-
 
     .top-menu {
         display: flex;
@@ -187,6 +166,33 @@ img {
     .Visit-div {
         margin: 0px 10%;
     }
+
+    /*Main styling*/
+
+    .explore-icons-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+
+    .media-icons {
+        border-radius: 50%;
+        max-width: 100px;
+        border: solid black 1px;
+    }
+    
+    .explore-icons {
+        display: flex;
+        text-align: center;
+    }
+    
+    .icon-text {
+        display: flex;
+        align-items: center;
+    
+    }    
+
+    
 
 }
 
@@ -251,6 +257,27 @@ img {
         font-family: verdana, sans-serif;
     }
 
+        /*Main styling*/
+
+        .media-icons {
+            border-radius: 50%;
+            max-width: 100px;
+            border: solid black 1px;
+        }
+        
+        .explore-icons {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: auto auto auto;
+        }
+        
+        .icon-text {
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+        
+        }    
+
 }
 
 @media only screen and (min-width:360px) and (max-width:599px) {
@@ -311,6 +338,27 @@ img {
         font-family: verdana, sans-serif;
     }
     
+    /*Main styling*/
+
+    .media-icons {
+        border-radius: 50%;
+        max-width: 100px;
+        border: solid black 1px;
+    }
+    
+    .explore-icons {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .icon-text {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+    
+    }    
+
     /*About styling*/
 
     .about-top {
