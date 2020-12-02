@@ -7,7 +7,7 @@ body {
   }
 
 h1 {
-
+    font-family: arial, verdana, sans-serif;
 }
 
 h2 {
@@ -151,13 +151,14 @@ img {
         background-color: white;
         align-self: center;
         padding: 10px;
-        font-family: verdana, sans-serif;
+        font-family: Arial, verdana, sans-serif;
     }
 
     .navelement2 {
         background-color: white;
         padding: 10px;
         font-size: 16px;
+        font-family: Arial, verdana, sans-serif;
     }
 
     .navelement2:hover {
