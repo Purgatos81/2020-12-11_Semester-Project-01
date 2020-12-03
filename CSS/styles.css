@@ -83,13 +83,6 @@ img {
     margin-top: 50px;
 }
 
-.footer-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .footer-link:hover {
     text-decoration: underline;
@@ -150,6 +143,15 @@ img {
     .nav-button2 {
         background-color: #F2A20C;
         padding: 10px;
+    }
+       
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 /*main page styling*/
@@ -313,27 +315,35 @@ img {
         margin-top: 5px;
         font-family: verdana, sans-serif;
     }
+      
+    .footer-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
         /*Main styling*/
 
-        .media-icons {
+    .media-icons {
             border-radius: 50%;
             max-width: 100px;
             border: solid black 1px;
-        }
+    }
         
-        .explore-icons {
+    .explore-icons {
             display: grid;
             grid-template-columns: auto 1fr;
             grid-template-rows: auto auto auto;
-        }
+    }
         
-        .icon-text {
+    .icon-text {
             padding-left: 20px;
             display: flex;
             align-items: center;
         
-        }    
+    }    
 
 }
 
@@ -394,7 +404,15 @@ img {
         margin-top: 5px;
         font-family: verdana, sans-serif;
     }
-    
+       
+    .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
     /*Main styling*/
 
     .main-info-h {
