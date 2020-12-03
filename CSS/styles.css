@@ -254,6 +254,47 @@ img {
         grid-column: 3/4;
     }
 
+    /*Educational styling here*/
+
+    .school-text {
+        display: grid;
+        grid-template-columns: 48% auto 48%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: start;
+        line-height: 21px;
+    }
+
+    .school-text-1 {
+        grid-column: 1/2;
+    }
+
+    .school-text-2 {
+        grid-column: 3/4;
+    }
+
+    /*work styling here*/
+
+    .work-text {
+        display: grid;
+        grid-template-columns: 30% auto 30% auto 30%;
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: start;
+        line-height: 21px;
+    }
+
+    .work-text-1 {
+        grid-column: 1/2;
+    }
+
+    .work-text-2 {
+        grid-column: 3/4;
+    }
+    
+    .work-text-3 {
+        grid-column: 5/6;
+    }
 
 }
 
