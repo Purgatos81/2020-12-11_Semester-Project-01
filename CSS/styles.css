@@ -569,6 +569,7 @@ img {
         text-align: start;
         font-size: 45px;
         margin-bottom: 10px;
+        padding-left: 10px;
     }
 
     .exhibit-h {
@@ -582,15 +583,17 @@ img {
         margin-right: 10px;
     }
 
+    .work-text {
+        padding-left: 10px;
+    }
+
     /*About styling*/
 
     .about-top {
-        text-align: center;
         padding: 0px 30px;
     }
 
     .about-main {
-        text-align: center;
         padding: 0px 30px;
     }
 
