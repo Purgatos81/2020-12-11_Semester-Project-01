@@ -89,8 +89,6 @@ img {
 
 
 
-/*School styling here*/
-
 
 /*media queries here*/
 
@@ -212,6 +210,8 @@ img {
     .icon-text {
         display: flex;
         align-items: center;
+        text-align: start;
+        padding-left: 10px;
     
     }    
 
@@ -227,6 +227,7 @@ img {
     .exhibit-header {
         grid-column: 1/4;
         text-align: center;
+        font-size: 50px;
     }
 
     .exhibits-div-1 {
@@ -540,7 +541,6 @@ img {
     .icon-text {
         padding-left: 20px;
         display: flex;
-        align-items: center;
         line-height: 21px;
     }    
 
