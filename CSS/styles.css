@@ -101,6 +101,10 @@ img {
     padding-top: 20px;
 }
 
+.visit-time-div {
+    background-color: #EBEBEB;
+}
+
 .news-header2 {
     padding-top: 15px;
 }
@@ -231,6 +235,15 @@ img {
     .Visit-div {
         margin: 0px 10%;
     }
+
+   .visit-h {
+        padding-left: 10px;
+    } 
+
+    .visit-p {
+        padding-left: 10px;
+    } 
+
 
     .explore-icons-container {
         display: grid;
