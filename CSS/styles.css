@@ -235,27 +235,30 @@ img {
     .explore-icons-container {
         display: grid;
         grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .explore-icons {
+        display: flex;
         align-items: center;
+        flex-direction: column;
     }
 
     .media-icons {
         border-radius: 50%;
         max-width: 100px;
-        border: solid black 1px;
+        border: solid #F2A20C 5px;
+    }  
+
+    .media-icons:hover {
+        border: solid #F65B01;
     }
-    
-    .explore-icons {
-        display: flex;
+
+    .icon-text {
         text-align: center;
     }
-    
-    .icon-text {
-        display: flex;
-        align-items: center;
-        text-align: start;
-        padding-left: 10px;
-    
-    }    
 
     /*exhibits styling here*/
 
@@ -446,11 +449,20 @@ img {
         /*Main styling*/
 
     .media-icons {
-            border-radius: 50%;
-            max-width: 100px;
-            border: solid black 1px;
+        border-radius: 50%;
+        max-width: 100px;
+        border: solid #F2A20C 5px;
+    }  
+    
+    .media-icons:hover {
+        border: solid #F65B01;
     }
-        
+    
+    .explore-icons-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     .explore-icons {
             display: grid;
             grid-template-columns: auto 1fr;
@@ -567,9 +579,18 @@ img {
     .media-icons {
         border-radius: 50%;
         max-width: 100px;
-        border: solid black 1px;
+        border: solid #F2A20C 5px;
+    }  
+    
+    .media-icons:hover {
+        border: solid #F65B01;
     }
     
+    .explore-icons-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
     .explore-icons {
         display: grid;
         grid-template-columns: auto 1fr;
