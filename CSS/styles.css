@@ -595,6 +595,7 @@ img {
         display: grid;
         grid-template-columns: auto 1fr;
         grid-template-rows: auto auto auto;
+        padding-bottom: 30px;
     }
     
     .icon-text {
