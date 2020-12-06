@@ -20,6 +20,7 @@ h3 {
 
 p {
     font-family: verdana, sans-serif;
+    line-height: 30px;
 }
 
 a:link {
@@ -67,7 +68,7 @@ img {
 
 .main-info-h {
     text-align: center;
-    padding-top: 0px;
+    padding-top: 20px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
@@ -75,18 +76,19 @@ img {
 .main-info-p {
     margin-top: 0px;
     font-size: 16px;
-    line-height: 21px;
+    line-height: 30px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.icon-text {
+    line-height: 30px;
 }
 
 .news-div {
     background-color: #EBEBEB;
     border: solid black 1px;
     padding-left: 0px;
-}
-
-.news-div {
     padding-top: 1px;
 }
 
@@ -95,7 +97,31 @@ img {
     margin-top: 50px;
 }
 
+.visit-h {
+    padding-top: 20px;
+}
 
+.news-header2 {
+    padding-top: 15px;
+}
+
+/*Exhibit styling here*/
+
+.exhibit-h {
+    padding-top: 20px;
+}
+
+/*school styling here*/
+
+.school-h {
+    padding-top: 20px;
+}
+
+/*Work styling here*/
+
+.support-h {
+    padding-top: 20px;
+}
 
 /*media queries here*/
 
@@ -151,6 +177,11 @@ img {
         padding: 10px;
     }
        
+    .nav-button2:hover {
+        background-color: #F65B01;
+        text-decoration: none;
+    }
+
     .footer-nav {
         display: flex;
         justify-content: space-between;
@@ -530,11 +561,7 @@ img {
     /*Main styling*/
 
     .main-info-h {
-        padding-top: 14px;
-    }
-
-    .main-info-p {
-        font-weight: bold;
+        padding-top: 20px;
     }
 
     .media-icons {
@@ -552,17 +579,21 @@ img {
     .icon-text {
         padding-left: 20px;
         display: flex;
-        line-height: 21px;
+        line-height: 30px;
     }    
 
     .news-header {
         padding-left: 10px;
     }
 
+    .news-header2 {
+        padding-left: 10px;
+    }
+
     .news-p {
         padding-left: 10px;
         padding-right: 10px;
-        line-height: 21px;
+        line-height: 30px;
     }
 
     .visit-h {
@@ -570,7 +601,7 @@ img {
     }
 
     .visit-p {
-        line-height: 21px;
+        line-height: 30px;
         margin-left: 10px;
     }
 
@@ -586,6 +617,10 @@ img {
     .exhibit-h {
         padding-left: 10px;
     }
+
+    /*school styling*/
+
+
 
     /*work styling*/
 
