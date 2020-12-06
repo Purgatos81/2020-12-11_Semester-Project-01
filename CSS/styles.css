@@ -43,6 +43,20 @@ img {
     height: auto;
 }
 
+.footer-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer-nav {
+    background-color: #EBEBEB;
+    padding: 10px;
+}
+
+.copy-foot {
+    text-align: center;
+}
+
 /*Main Page Style*/
 
 .main-fig {
@@ -82,13 +96,6 @@ img {
 }
 
 
-.footer-link:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-
-
 
 /*media queries here*/
 
@@ -114,6 +121,10 @@ img {
         padding-left: 0px;
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    #search {
+        display: none;
     }
 
     .navelement1 {
@@ -145,8 +156,8 @@ img {
         justify-content: space-between;
         margin-left: 10%;
         margin-right: 10%;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
 /*main page styling*/
