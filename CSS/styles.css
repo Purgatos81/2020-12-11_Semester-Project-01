@@ -401,6 +401,7 @@ img {
         color: black;
         grid-column: 3/4;
         align-self: center;
+        font-weight: bold;
     }
     
     .top-navigation {
