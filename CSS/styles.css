@@ -463,9 +463,6 @@ img {
 }
 
 
-
-
-
 @media only screen and (min-width:600px) and (max-width:990px) {
     .top-menu {
         display: none;
@@ -538,6 +535,14 @@ img {
         max-width: 50ch;
     }
 
+    .news-p {
+        max-width: 50ch;
+    }
+
+    .visit-p {
+        max-width: 50ch;
+    }
+
     .media-icons {
         border-radius: 50%;
         max-width: 100px;
@@ -579,16 +584,30 @@ img {
         padding-left: 10px;
     }
 
+    /*School styling*/
+
+    .school-p {
+        max-width: 50ch;
+    }
+
+    /*Work styling*/
+
+    .work-p {
+        max-width: 50ch;
+    }
+
     /*About styling*/
 
     .about-top {
-        text-align: center;
         padding: 0px 30px;
     }
 
     .about-main {
-        text-align: center;
         padding: 0px 30px;
+    }
+
+    .about-p {
+        max-width: 50ch;
     }
 
     .contact-legend {
