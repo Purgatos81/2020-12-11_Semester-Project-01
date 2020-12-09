@@ -352,26 +352,48 @@ img {
         grid-column: 1/4;
         text-align: center;
         font-size: 50px;
+        padding-top: 40px;
+    }
+
+    .exhibit-h {
+        padding-left: 20px;
+    }
+
+    .exhibit-p {
+        padding-left: 20px;
+        max-width: 30ch;
     }
 
     .exhibits-div-1 {
         grid-row: 2/3;
         grid-column: 1/2;
+        border: solid black 1px;
+        background-color: #EBEBEB;
+        margin-bottom: 25px;
     }
 
     .exhibits-div-2 {
         grid-row: 2/3;
         grid-column: 3/4;
+        border: solid black 1px;
+        background-color: #EBEBEB;
+        margin-bottom: 25px;
     }
 
     .exhibits-div-3 {
         grid-row: 3/4;
         grid-column: 1/2;
+        border: solid black 1px;
+        background-color: #EBEBEB;
+        margin-bottom: 10px;
     }
 
     .exhibits-div-4 {
         grid-row: 3/4;
         grid-column: 3/4;
+        border: solid black 1px;
+        background-color: #EBEBEB;
+        margin-bottom: 10px;
     }
 
     /*Educational styling here*/
@@ -584,6 +606,11 @@ img {
         padding-left: 10px;
     }
 
+    .exhibit-p {
+        padding-left: 10px;
+        max-width: 50ch;
+    }
+
     /*School styling*/
 
     .school-p {
@@ -750,6 +777,11 @@ img {
 
     .exhibit-h {
         padding-left: 10px;
+    }
+
+    .exhibit-p {
+        padding-left: 10px;
+        max-width: 40ch;
     }
 
     /*School styling*/
