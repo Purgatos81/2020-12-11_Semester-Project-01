@@ -85,6 +85,11 @@ img {
     padding-right: 20px;
 }
 
+.explore-h {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
 .icon-text {
     line-height: 30px;
 }
@@ -257,6 +262,9 @@ img {
         padding-left: 50px;
     }
 
+    .explore-h {
+        text-align: center;
+    }
 
     .news-div {
         margin: 0px 10%;
