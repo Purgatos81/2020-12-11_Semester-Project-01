@@ -8,6 +8,7 @@ body {
 
 h1 {
     font-family: arial, verdana, sans-serif;
+    font-size: 40px;
 }
 
 h2 {
@@ -361,7 +362,7 @@ img {
     .exhibit-header {
         grid-column: 1/4;
         text-align: center;
-        font-size: 50px;
+        font-size: 35px;
         padding-top: 40px;
     }
 
@@ -607,7 +608,7 @@ img {
 
     .exhibit-header {
         text-align: start;
-        font-size: 45px;
+        font-size: 35px;
         margin-bottom: 10px;
         padding-left: 10px;
     }
@@ -780,7 +781,7 @@ img {
 
     .exhibit-header {
         text-align: start;
-        font-size: 45px;
+        font-size: 35px;
         margin-bottom: 10px;
         padding-left: 10px;
     }
